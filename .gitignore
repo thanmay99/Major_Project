@@ -5,3 +5,4 @@ ganache.log
 ganache.pid
 __pycache__/
 *.pyc
+*:Zone.Identifier
