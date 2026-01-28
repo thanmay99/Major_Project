@@ -1,0 +1,13 @@
+version: '3.8'
+
+services:
+  sdn-blockchain:
+    build: .
+    container_name: sdn-blockchain-controller
+    ports:
+      - "5000:5000"  # Blockchain service
+      - "6633:6633"  # OpenFlow
+      - "6653:6653"  # OpenFlow
+    network_mode: "host"
+    volumes:
+      - /tmp:/tmp

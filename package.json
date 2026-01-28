@@ -1,0 +1,6 @@
+{
+  "devDependencies": {
+    "ganache-cli": "^6.12.2",
+    "web3": "^4.16.0"
+  }
+}
